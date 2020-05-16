@@ -1,0 +1,33 @@
+$list-prefix: $css-prefix+'-list';
+
+.#{$list-prefix} {
+
+  .#{$list-prefix}-header,
+  .#{$list-prefix}-footer {
+    margin: 10px 0;
+    align-items: center;
+  }
+
+  .#{$list-prefix}-header {
+    h3 {
+      border-left: 3px solid #e6454a;
+      font-size: 18px;
+      color: #333;
+      font-weight: normal;
+      line-height: 1.2;
+      padding: 2px 5px 0;
+    }
+
+    small {
+      color: #666;
+      margin-left: 15px;
+    }
+  }
+
+  .#{$list-prefix}-action {
+    display: inline-block;
+    color: #09f;
+    margin: 5px;
+    cursor: pointer;
+  }
+}

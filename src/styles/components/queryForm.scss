@@ -1,0 +1,7 @@
+$query-prefix: $css-prefix+'-query';
+
+.#{$query-prefix} {
+  .#{$css-prefix}-form-item-field {
+    width: 180px;
+  }
+}
