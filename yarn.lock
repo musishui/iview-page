@@ -1483,11 +1483,6 @@ async-limiter@~1.0.0:
   resolved "https://registry-npm.daojia-inc.com/async-limiter/download/async-limiter-1.0.1.tgz#dd379e94f0db8310b08291f9d64c3209766617fd"
   integrity sha1-3TeelPDbgxCwgpH51kwyCXZmF/0=
 
-async-validator@^1.10.0:
-  version "1.12.2"
-  resolved "https://registry-npm.daojia-inc.com/async-validator/download/async-validator-1.12.2.tgz#beae671e7174d2938b7b4b69d2fb7e722b7fd72c"
-  integrity sha1-vq5nHnF00pOLe0tp0vt+cit/1yw=
-
 async@^1.5.2:
   version "1.5.2"
   resolved "https://registry-npm.daojia-inc.com/async/download/async-1.5.2.tgz#ec6a61ae56480c0c3cb241c95618e20892f9672a"
@@ -1597,11 +1592,6 @@ base@^0.11.1:
     isobject "^3.0.1"
     mixin-deep "^1.2.0"
     pascalcase "^0.1.1"
-
-batch-processor@1.0.0:
-  version "1.0.0"
-  resolved "https://registry-npm.daojia-inc.com/batch-processor/download/batch-processor-1.0.0.tgz#75c95c32b748e0850d10c2b168f6bdbe9891ace8"
-  integrity sha1-dclcMrdI4IUNEMKxaPa9vpiRrOg=
 
 batch@0.6.1:
   version "0.6.1"
@@ -2743,11 +2733,6 @@ deepmerge@^1.5.2:
   resolved "https://registry-npm.daojia-inc.com/deepmerge/download/deepmerge-1.5.2.tgz#10499d868844cdad4fee0842df8c7f6f0c95a753"
   integrity sha1-EEmdhohEza1P7ghC34x/bwyVp1M=
 
-deepmerge@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry-npm.daojia-inc.com/deepmerge/download/deepmerge-2.2.1.tgz#5d3ff22a01c00f645405a2fbc17d0778a1801170"
-  integrity sha1-XT/yKgHAD2RUBaL7wX0HeKGAEXA=
-
 default-gateway@^4.2.0:
   version "4.2.0"
   resolved "https://registry-npm.daojia-inc.com/default-gateway/download/default-gateway-4.2.0.tgz#167104c7500c2115f6dd69b0a536bb8ed720552b"
@@ -3021,13 +3006,6 @@ electron-to-chromium@^1.3.191:
   version "1.3.223"
   resolved "https://registry-npm.daojia-inc.com/electron-to-chromium/download/electron-to-chromium-1.3.223.tgz#3472d5260096cfc9be8b7350252a4c577f68f80a"
   integrity sha1-NHLVJgCWz8m+i3NQJSpMV39o+Ao=
-
-element-resize-detector@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry-npm.daojia-inc.com/element-resize-detector/download/element-resize-detector-1.2.0.tgz#63344fd6f4e5ecff6f018d027e17b281fd4fa338"
-  integrity sha1-YzRP1vTl7P9vAY0Cfheygf1Pozg=
-  dependencies:
-    batch-processor "1.0.0"
 
 elliptic@^6.0.0:
   version "6.5.0"
@@ -4860,11 +4838,6 @@ js-base64@^2.1.8:
   resolved "https://registry-npm.daojia-inc.com/js-base64/download/js-base64-2.5.1.tgz#1efa39ef2c5f7980bb1784ade4a8af2de3291121"
   integrity sha1-Hvo57yxfeYC7F4St5KivLeMpESE=
 
-js-calendar@^1.2.3:
-  version "1.2.3"
-  resolved "https://registry-npm.daojia-inc.com/js-calendar/download/js-calendar-1.2.3.tgz#a583b0644b4e695ba394f344d103dbcc7a7a7d3e"
-  integrity sha1-pYOwZEtOaVujlPNE0QPbzHp6fT4=
-
 js-levenshtein@^1.1.3:
   version "1.1.6"
   resolved "https://registry-npm.daojia-inc.com/js-levenshtein/download/js-levenshtein-1.1.6.tgz#c6cee58eb3550372df8deb85fad5ce66ce01d59d"
@@ -5151,11 +5124,6 @@ lodash.memoize@^4.1.2:
   resolved "https://registry-npm.daojia-inc.com/lodash.memoize/download/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
   integrity sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4=
 
-lodash.throttle@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry-npm.daojia-inc.com/lodash.throttle/download/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
-  integrity sha1-wj6RtxAkKscMN/HhzaknTMOb8vQ=
-
 lodash.transform@^4.6.0:
   version "4.6.0"
   resolved "https://registry-npm.daojia-inc.com/lodash.transform/download/lodash.transform-4.6.0.tgz#12306422f63324aed8483d3f38332b5f670547a0"
@@ -5167,9 +5135,9 @@ lodash.uniq@^4.5.0:
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
 lodash@^4.0.0, lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0, lodash@~4.17.10:
-  version "4.17.15"
-  resolved "https://registry-npm.daojia-inc.com/lodash/download/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha1-tEf2ZwoEVbv+7dETku/zMOoJdUg=
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 log-symbols@^2.2.0:
   version "2.2.0"
@@ -6314,11 +6282,6 @@ pluralize@^7.0.0:
   version "7.0.0"
   resolved "https://registry-npm.daojia-inc.com/pluralize/download/pluralize-7.0.0.tgz#298b89df8b93b0221dbf421ad2b1b1ea23fc6777"
   integrity sha1-KYuJ34uTsCIdv0Ia0rGx6iP8Z3c=
-
-popper.js@^1.14.6:
-  version "1.16.0"
-  resolved "https://registry-npm.daojia-inc.com/popper.js/download/popper.js-1.16.0.tgz#2e1816bcbbaa518ea6c2e15a466f4cb9c6e2fbb3"
-  integrity sha1-LhgWvLuqUY6mwuFaRm9Mucbi+7M=
 
 portfinder@^1.0.20, portfinder@^1.0.21:
   version "1.0.21"
@@ -8089,11 +8052,6 @@ timsort@^0.3.0:
   resolved "https://registry-npm.daojia-inc.com/timsort/download/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
   integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
 
-tinycolor2@^1.4.1:
-  version "1.4.1"
-  resolved "https://registry-npm.daojia-inc.com/tinycolor2/download/tinycolor2-1.4.1.tgz#f4fad333447bc0b07d4dc8e9209d8f39a8ac77e8"
-  integrity sha1-9PrTM0R7wLB9TcjpIJ2POaisd+g=
-
 tmp@^0.0.33:
   version "0.0.33"
   resolved "https://registry-npm.daojia-inc.com/tmp/download/tmp-0.0.33.tgz#6d34335889768d21b2bcda0aa277ced3b1bfadf9"
@@ -8418,11 +8376,6 @@ uuid@^3.0.1, uuid@^3.3.2:
   resolved "https://registry-npm.daojia-inc.com/uuid/download/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
   integrity sha1-G0r0lV6zB3xQHCOHL8ZROBFYcTE=
 
-v-click-outside-x@^3.7.1:
-  version "3.7.1"
-  resolved "https://registry-npm.daojia-inc.com/v-click-outside-x/download/v-click-outside-x-3.7.1.tgz#aa03eaa0e41e44cb5207dcf86c2d9f0dd64084c1"
-  integrity sha1-qgPqoOQeRMtSB9z4bC2fDdZAhME=
-
 validate-npm-package-license@^3.0.1:
   version "3.0.4"
   resolved "https://registry-npm.daojia-inc.com/validate-npm-package-license/download/validate-npm-package-license-3.0.4.tgz#fc91f6b9c7ba15c857f4cb2c5defeec39d4f410a"
@@ -8449,20 +8402,6 @@ verror@1.10.0:
     assert-plus "^1.0.0"
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
-
-view-design@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry-npm.daojia-inc.com/view-design/download/view-design-4.0.2.tgz#983450fb4fd0a56642dc13ebc7e585c0aae64fc8"
-  integrity sha1-mDRQ+0/QpWZC3BPrx+WFwKrmT8g=
-  dependencies:
-    async-validator "^1.10.0"
-    deepmerge "^2.2.1"
-    element-resize-detector "^1.2.0"
-    js-calendar "^1.2.3"
-    lodash.throttle "^4.1.1"
-    popper.js "^1.14.6"
-    tinycolor2 "^1.4.1"
-    v-click-outside-x "^3.7.1"
 
 vm-browserify@^1.0.1:
   version "1.1.0"
