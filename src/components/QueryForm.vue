@@ -3,6 +3,7 @@
           :attrs="newAttrs"
           v-model="value"
           :class="queryPrefixCls"
+          :root="root"
           ref="queryForm">
     <template #query_btns>
       <FormItem :class="`${prefixCls}-action`"

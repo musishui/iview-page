@@ -65,7 +65,7 @@ export default {
       if (this.events && this.events['on-change']) {
         this.events['on-change'](e)
       }
-      if (this.attrs.type == 'datetime' || this.attrs.type == 'datetimerange') {
+      if (e && (!Array.isArray(e) || e[0]) && this.attrs.type == 'datetime' || this.attrs.type == 'datetimerange') {
         if (this.datePicker.$refs.pickerPanel.currentView == 'date') {
           this.datePicker.$refs.pickerPanel.handleToggleTime()
         }

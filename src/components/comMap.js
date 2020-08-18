@@ -57,8 +57,37 @@ export default {
   date: {
     component: VDatePicker,
     defaultOptions: {
-      // comType: VDatePicker,
       attrs: {
+        clearable: true,
+        'split-panels':false
+      }
+    }
+  },
+  daterange: {
+    component: VDatePicker,
+    defaultOptions: {
+      attrs: {
+        type:'daterange',
+        clearable: true,
+        'split-panels':false
+      }
+    }
+  },
+  datetime: {
+    component: VDatePicker,
+    defaultOptions: {
+      attrs: {
+        type:'datetime',
+        clearable: true,
+        'split-panels':false
+      }
+    }
+  },
+  datetimerange: {
+    component: VDatePicker,
+    defaultOptions: {
+      attrs: {
+        type:'datetimerange',
         clearable: true,
         'split-panels':false
       }

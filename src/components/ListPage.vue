@@ -4,7 +4,7 @@
       <query-form v-bind="queryOption"
                   v-model="queryVal"
                   :root="root||this"
-                  @on-query="queryHandle" />
+                  @on-query="query(1)" />
     </slot>
     <slot name="listPanel">
       <list v-bind="listOpts"
@@ -60,21 +60,20 @@ export default {
   },
 
   methods: {
-    queryHandle (params) {
-      this.queryParams = params
-      if (this.listOpts.paging) {
-        this.queryParams.pageIndex = 1
-        this.queryParams.pageSize = this.listOpts.paging.pageSize
-        this.listOpts.paging.current = 1
-      }
-      this.$emit('on-query', this.queryParams)
-    },
     pageChange (index) {
-      this.queryParams.pageSize = this.listOpts.paging.pageSize
-      this.queryParams.pageIndex = index
+      this.query(index)
+    },
+    query (pageIndex) {
+      this.queryParams = Object.assign({}, this.queryVal)
+      if (this.listOpts.paging) {
+        this.queryParams.pageSize = this.listOpts.paging.pageSize
+        this.queryParams.pageIndex = pageIndex
+        this.listOpts.paging.current = pageIndex
+      }
       this.$emit('update:loading', true)
       this.$emit('on-query', this.queryParams)
     }
-  }
+  },
+
 }
 </script>
